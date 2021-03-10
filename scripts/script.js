@@ -22,11 +22,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 memory: 512,
             },
         ];
-
         const destruct = ()=>{
             cardDetailChange.forEach(btn => btn.classList.remove('active'));
         };
-
         cardDetailChange.forEach((btn,i)=>{
             btn.addEventListener('click',()=>{
                 if(!btn.classList.contains('active')){
@@ -38,10 +36,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 };
             });
         });
-
-
-
     };
-
     tabs();
 });
