@@ -37,5 +37,12 @@ document.addEventListener('DOMContentLoaded', ()=>{
             });
         });
     };
+    const accordion =()=>{
+        const characteristicsItem = document.querySelectorAll('.characteristics__item');
+        const characteristicsList = document.querySelectorAll('.characteristics__list');
+        
+        
+    };
+    accordion();
     tabs();
 });

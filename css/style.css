@@ -160,6 +160,12 @@ h1, h2, h3, p, ul {
 }
 
 @media (max-width: 375px) {
+    .header-menu__list{
+        max-width: 280px;
+    }
+    .header-menu__item{
+        font-size: 8px;
+    }
     .logo {
         margin-right: 10px;
     }
