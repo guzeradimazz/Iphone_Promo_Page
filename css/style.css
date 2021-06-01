@@ -33,6 +33,7 @@
 
 html {
     box-sizing: border-box;
+    overflow-x: hidden !important;
 }
 
 *,
@@ -46,7 +47,7 @@ body {
     margin: 0;
     background-color: #fff; /* под проект */
     font-family: "San Francisco", Arial, sans-serif; /* в "" свой шрифт под проект*/
-
+    overflow-x: hidden !important;
     font-size: 16px;
     font-weight: 400;
     color: black;
